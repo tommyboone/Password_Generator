@@ -1,0 +1,13 @@
+h1{
+    text-align:center;
+}
+
+#genButton{
+    color: #fff;
+    background-color: red;
+}
+
+#copyButton{
+    color: #fff;
+    background-color:lightgray;
+}
