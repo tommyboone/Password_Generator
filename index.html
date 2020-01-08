@@ -10,21 +10,69 @@
      crossorigin="anonymous">
 </head>
 <body>
-  <title>Password Generator</title>
+<title>Password Generator</title>
 
-  <div id = "container-fluid">
-    
-    
-    <h1>Password Generator</h1>
-    <h2>Generate a Password</h2>
-    <br>
-
-  </div> 
-    
+  <h1>Password Generator</h1>
   <br>
+  
+  <main>
+  <div class="container-fluid">
+      <div class="row">
+        <div class="col"></div>
+      <div class="col-6">
+    <h2>Generate your Password</h2>
+    </div>  
+     <div class="col"></div>
+  </div>
+  
+
+<br>
+
+<div class="row">
+  <div class= "col-sm-12 col-md-6 col-lg-3"></div>
+  <div class="col-sm-12 col-md-6, col-lg-6">
+    <div class="input-group">
+        <div class="input-group-prepend">
+          <span class="input-group-text">Your Random Password</span>
+        </div>
+        <textarea class="form-control textarea" aria-label="With textarea" id="passBox"></textarea>
+      </div>
+</div>
+</div>
+<br>
+<div class="row">
+  <div class="col-sm-12 col-md-6 col-lg-6"></div>
+  <div class="col-sm-12 col-md-6 col-lg-6">
+
+  <button id="genButton" onclick="genPass()" type="button" class="btn btn-danger">Generate Password</button> 
+  
+  <button id="copyButton" onclick="copyToClipBoard()" type="button" class="btn btn-secondary">Copy to Clipboard</button>
+
+</div> 
+</div>
+</div> 
+</div>
+    
+  
+</main>
+<script src="./script.js"></script>
+</body>
+</html>
+<!-- <body>
+  <title>Password Generator</title>
+    <h1>Password Generator</h1>
+<br>
+<main>
+<div class ="container-fluid">
+    <div class="row">
+      <div class= "col-sm-12 col-md-4 col-lg-3"></div>
+      <div class= "col-sm-12 col-md-4 col-lg-3">
+    <h2>Generate a Password</h2>
+  </div>
+  </div>
   <hr>
     
-<div id = "container-fluid"> 
+
   <div class="row">
   <div class= "col-sm-12 col-md-6 col-lg-3"></div>
   <div class="col-sm-12 col-md-6, col-lg-6">
@@ -32,7 +80,7 @@
         <div class="input-group-prepend">
           <span class="input-group-text">Your Random Password</span>
         </div>
-        <textarea class="form-control" aria-label="With textarea" id="passBox" placeholder="Your random password"></textarea>
+        <textarea class="form-control lg-textarea" aria-label="With textarea" id="passBox"></textarea>
       </div>
 </div>
 </div>
@@ -44,12 +92,8 @@
 
   <button id="genButton" onclick="genPass()" type="button" class="btn btn-danger">Generate Password</button> 
   
-  <button id="copyButton" onclick="copyPass()" type="button" class="btn btn-secondary">Copy to Clipboard</button>
+  <button id="copyButton" onclick=copyToClipBoard() type="button" class="btn btn-secondary">Copy to Clipboard</button>
 
 </div> 
 </div>
-</div>  
-    <script src="./script.js"></script>
-      
-</body>
-</html>
+</div>   -->
