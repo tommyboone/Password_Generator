@@ -55,3 +55,13 @@ function genPass(){
 
 }
 genPass()
+
+function copyPass(){
+
+
+}
+
+
+
+
+copyPass()
