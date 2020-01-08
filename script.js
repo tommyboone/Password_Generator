@@ -56,12 +56,24 @@ function genPass(){
 }
 genPass()
 
-function copyPass(){
+var copyButton = document.querySelector("#copyButton");
+
+
+function copyToClipBoard(event){
+    copyButton.addEventListener("click",function(){
+        alert("Password copied to clipboard!");
+        console.log("clicked it!");
+        
+    var textArea = document.querySelector(".textarea");
+    textArea.select();
+    document.execCommand("copy");
+
+
+    })
+    
 
 
 }
 
 
-
-
-copyPass()
+copyToClipBoard()
