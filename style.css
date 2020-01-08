@@ -11,3 +11,15 @@ h1{
     color: #fff;
     background-color:lightgray;
 }
+
+#passBox{
+    border: 5px dotted gray;
+}
+
+.btn-danger{
+    padding-right: 60px;
+}
+
+.container-fluid{
+    background-color:lightgray;
+}
