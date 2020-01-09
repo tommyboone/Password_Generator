@@ -18,16 +18,38 @@ h1{
 }
 
 
+body{
+    background-color: lightgray;
+}
+
 .container-fluid{
+    background-color:#fff;
+    margin: 50px;
+    padding-bottom: 50px; 
+    padding-left:50px;
+    padding-right:50px;
+    padding-top:50px;
+    border: 1 px solid black;
+    position:relative;
+
+}
+.row{
+  
     background-color:#fff;
 
 }
-
-main{
-    background-color: red;
+textarea{
+    text-align:center;
 }
-div{
-    border:1px solid black;
-    background-color:rebeccapurple;
 
+footer{
+    width: 100%;
+    position: fixed;
+    height:30px;
+    bottom: 0;
+    left: 0;
+    background-color: lightgray;
+    text-align:center;
+    font-size:10px;
 }
+
