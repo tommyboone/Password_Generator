@@ -1,3 +1,4 @@
+//Prompt and confirm messages on page load.
 var howLong = prompt("How long do you want you password to be? (8-128 characters)");
     console.log(howLong);
 
@@ -16,6 +17,8 @@ var wantNum = confirm("Do you want to use numbers?");
 var wantSpec = confirm("Do you want to use special characters (;/,#%^& etc..)?");
     console.log(wantSpec);
 
+
+//Generate Password Function
 function genPass(){
     var all = '';
     var num = "0123456789";
@@ -55,6 +58,8 @@ function genPass(){
 
 }
 genPass()
+
+//Copy Password to Clipboard function
 
 var copyButton = document.querySelector("#copyButton");
 
