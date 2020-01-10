@@ -1,9 +1,17 @@
 //Prompt and confirm messages on page load.
 var howLong = prompt("How long do you want you password to be? (8-128 characters)");
     console.log(howLong);
+<<<<<<< HEAD
    if (howLong === ""){
         alert("You must select a password length!");    
     }
+=======
+  if (howLong === ""){
+        alert("You must select a password length!");    
+    }
+
+
+>>>>>>> 57deb6f58d8aa24813861c0966b1c42e5f73a5ff
 
 var wantUpper = confirm("Do you want to use uppercase letters?");
     console.log(wantUpper);
@@ -44,7 +52,11 @@ function genPass(){
         all += specChar;
     }
     
+<<<<<<< HEAD
     if(wantUpper === false && wantLower === false && wantNum === false && wantSpec === false){
+=======
+     if(wantUpper === false && wantLower === false && wantNum === false && wantSpec === false){
+>>>>>>> 57deb6f58d8aa24813861c0966b1c42e5f73a5ff
         alert("You must select at least one type of character!");
         return null;
     }
