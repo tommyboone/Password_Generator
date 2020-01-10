@@ -7,6 +7,7 @@
     https://tommyboone.github.io/Password_Generator/
 
 #Screenshot
+
 ![alt text](./Images/Password-Generator-Screenshot.png)
 
 # Usage
