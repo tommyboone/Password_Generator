@@ -1,9 +1,7 @@
 //Prompt and confirm messages on page load.
 var howLong = prompt("How long do you want you password to be? (8-128 characters)");
     console.log(howLong);
-
-
-  if (howLong === ""){
+    if (howLong === ""){
         alert("You must select a password length!");    
     }
 
